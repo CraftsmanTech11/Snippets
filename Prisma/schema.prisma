@@ -1,6 +1,7 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 //id       String    @id @default(auto()) @map("_id") @db.ObjectId  // mongodb id mapping
+// https://github.com/gothinkster/node-express-prisma-v1-official-app // full details
 
 datasource db {
   provider = "postgresql"
