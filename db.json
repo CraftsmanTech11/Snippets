@@ -15,13 +15,13 @@
               "openPositionResponse": [
                 {
                   "OpenPositionDetails": {
-                    "symbol": "PRESTIGE",
+                    "symbol": "TCSLTDEQNR",
                     "ltp": "1467.60",
                     "altp": "1469.58",
                     "changeltp": "-4.60",
                     "previousltp": "1472.20",
                     "ltpchangepercetage": "-0.31",
-                    "lsSymbol": "item_NSE_PREESTEQNR",
+                    "lsSymbol": "item_NSE_TCSLTDEQNR",
                     "marketLot": null,
                     "investedamount": "4826.25",
                     "borrowedAmount": "5898.75",
@@ -31,7 +31,7 @@
                     },
                     "expiryDate": null,
                     "instrumentIdentity": {
-                      "instrumentId": "PREESTEQNR",
+                      "instrumentId": "TCSLTDEQNR",
                       "instrumentIdType": 42,
                       "instrumentSegment": 99,
                       "instrumentType": 1
@@ -90,7 +90,7 @@
           "resdata": {
             "emarginDetails": [
               {
-                "lsSymbol": "item_NSE_PREESTEQNR",
+                "lsSymbol": "item_NSE_TCSLTDEQNR",
                 "emarginPositionList": [
                   {
                     "averageTradedPrice": 1787.5,
