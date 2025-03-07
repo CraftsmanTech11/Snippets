@@ -1,4 +1,144 @@
 {
+    "open_positions":{
+    "mb": {
+        "operationid": "book-services-positions-list\"",
+        "reqtoken": "H+REfFTAUgDGqqIeclEiXK78zE1OcqAG3VW0MxOB8q5wawzym6Uh83p1B6uxhWNoqh31W2uMGbyjBgCguXOcTOjF9zKlSB8RsWfKuKFBqlLH5fR4+Ss8NN/xNNv4SWNQ6isLIPeKh9LoohQpv1a5xZ48fszaY27sPDYin5tGgjZeXFaL1We8rNfqV6OsB8UQzWYds8r0IGUAI/JCukoYsgpGFI28nGOM9eXCRuqqVjASc+8T3Y78usWm8U0FTKYGHr4JxAB9Qa33AxhwqF5E+nBi2SzTQASt7oBZyzhE4/Ik/t1bi0v/kyA9Y932lQ8lm2E2EY/XCEIKJwSL9PX8uw==",
+        "rs": {
+            "statuscode": "000",
+            "response": "Success",
+            "resdata": {
+                "messageList": null,
+                "pageSize": 2,
+                "responseCode": 0,
+                "result": {
+                    "openPositionResponse": [
+                        {
+                            "OpenPositionDetails": {
+                                "symbol": "INFY",
+                                "ltp": "1745.40",
+                                "altp": "1766.11",
+                                "changeltp": "-134.40",
+                                "previousltp": "1879.80",
+                                "ltpchangepercetage": "-7.15",
+                                "lsSymbol": "item_NSE_INFTECEQNR",
+                                "marketLot": null,
+                                "investedamount": "44071.3515625",
+                                "borrowedAmount": "132214.0546875",
+                                "exchangeIdentity": {
+                                    "exchangeId": "ALL",
+                                    "exchangeIdType": 2
+                                },
+                                "expiryDate": null,
+                                "instrumentIdentity": {
+                                    "instrumentId": "INFTECEQNR",
+                                    "instrumentIdType": 42,
+                                    "instrumentSegment": 99,
+                                    "instrumentType": 1
+                                },
+                                "optionType": null,
+                                "product": 6,
+                                "strikePrice": 0,
+                                "tokenId": null
+                            },
+                            "OpenPositionLegDetails": {
+                                "averageTradedPrice": 1745.4,
+                                "avgTransPrice": 0,
+                                "buyOrderQuantity": 0,
+                                "cfQty": 0,
+                                "convetToDeliveryQuantity": 0,
+                                "costPriceAtp": 0,
+                                "currentNetExp": 176285.4,
+                                "date": "21 FEB 2025",
+                                "lotQuantityIndicator": 2,
+                                "ltp": 1765.45,
+                                "marginPct": 25,
+                                "markToMarket": 1.15,
+                                "mtom": 0,
+                                "multiplier": null,
+                                "netQuantity": 101,
+                                "realizedGainLoss": 0,
+                                "securityName": "INFOSYS LTD",
+                                "sellOrderQuantity": 0,
+                                "settlementPrize": 0,
+                                "squareOffDate": "-",
+                                "totalBuytradedQuantity": 101,
+                                "totalSelltradedQuantity": 0,
+                                "tradeValue": 176285.4,
+                                "unrealizedGainLoss": null,
+                                "unrealizedGainLossPercentage": null
+                            },
+                            "tradingAccountDetails": {
+                                "accountSettlementType": 0,
+                                "tradingAccountNumber": "414202"
+                            }
+                        },
+                        {
+                            "OpenPositionDetails": {
+                                "symbol": "TCS",
+                                "ltp": "3631.85",
+                                "altp": "3665.31",
+                                "changeltp": "-480.55",
+                                "previousltp": "4112.40",
+                                "ltpchangepercetage": "-11.69",
+                                "lsSymbol": "item_NSE_TCSLTDEQNR",
+                                "marketLot": null,
+                                "investedamount": "907.6875",
+                                "borrowedAmount": "2723.0625",
+                                "exchangeIdentity": {
+                                    "exchangeId": "ALL",
+                                    "exchangeIdType": 2
+                                },
+                                "expiryDate": null,
+                                "instrumentIdentity": {
+                                    "instrumentId": "TCSLTDEQNR",
+                                    "instrumentIdType": 42,
+                                    "instrumentSegment": 99,
+                                    "instrumentType": 1
+                                },
+                                "optionType": null,
+                                "product": 6,
+                                "strikePrice": 0,
+                                "tokenId": null
+                            },
+                            "OpenPositionLegDetails": {
+                                "averageTradedPrice": 3630.75,
+                                "avgTransPrice": 0,
+                                "buyOrderQuantity": 0,
+                                "cfQty": 0,
+                                "convetToDeliveryQuantity": 0,
+                                "costPriceAtp": 0,
+                                "currentNetExp": 3630.75,
+                                "date": "21 FEB 2025",
+                                "lotQuantityIndicator": 2,
+                                "ltp": 3635.2,
+                                "marginPct": 25,
+                                "markToMarket": 0.12,
+                                "mtom": 0,
+                                "multiplier": null,
+                                "netQuantity": 1,
+                                "realizedGainLoss": 0,
+                                "securityName": "TATA CONSULTANCY SERVICES LIMITED",
+                                "sellOrderQuantity": 0,
+                                "settlementPrize": 0,
+                                "squareOffDate": "-",
+                                "totalBuytradedQuantity": 1,
+                                "totalSelltradedQuantity": 0,
+                                "tradeValue": 3630.75,
+                                "unrealizedGainLoss": null,
+                                "unrealizedGainLossPercentage": null
+                            },
+                            "tradingAccountDetails": {
+                                "accountSettlementType": 0,
+                                "tradingAccountNumber": "414202"
+                            }
+                        }
+                    ],
+                    "totalUnRealisedPer": null
+                }
+            }
+        }
+    }
+},
     "mtf_margin": {
     "mb": {
         "operationid": "HSL2FALOGIN",
