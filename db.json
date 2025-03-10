@@ -1,233 +1,94 @@
 {
-  "open_positions": {
-    "mb": {
-      "operationid": "HSL2FALOGIN",
-      "reqtoken": "H+REfFTAUgDGqqIeclEiXK78zE1OcqAG3VW0MxOB8q5wawzym6Uh83p1B6uxhWNoqh31W2uMGbyjBgCguXOcTOjF9zKlSB8RsWfKuKFBqlLH5fR4+Ss8NN/xNNv4SWNQ6isLIPeKh9LoohQpv1a5xZ48fszaY27sPDYin5tGgjZeXFaL1We8rNfqV6OsB8UQzWYds8r0IGUAI/JCukoYsgpGFI28nGOM9eXCRuqqVjASc+8T3Y78usWm8U0FTKYGHr4JxAB9Qa33AxhwqF5E+nBi2SzTQASt7oBZyzhE4/Ik/t1bi0v/kyA9Y932lQ8lm2E2EY/XCEIKJwSL9PX8uw==",
-      "rs": {
-        "statuscode": "000",
-        "response": "Success",
-        "resdata": {
-          "messageList": null,
-          "pageSize": 2,
-          "responseCode": 0,
-          "result": {
-            "openPositionResponse": [
-              {
-                "OpenPositionDetails": {
-                  "symbol": "JIOFIN",
-                  "ltp": "227.38",
-                  "altp": "229.35",
-                  "changeltp": "-1.07",
-                  "previousltp": "228.45",
-                  "ltpchangepercetage": "-0.47",
-                  "lsSymbol": "item_NSE_JIOFIN",
-                  "marketLot": null,
-                  "investedamount": "80.08000106811524",
-                  "borrowedAmount": "148.7200019836426",
-                  "exchangeIdentity": {
-                    "exchangeId": "ALL",
-                    "exchangeIdType": 2
+    "positions": {
+      "mb": {
+        "operationid": "book-services-positions-list\"",
+        "reqtoken": "H+REfFTAUgDGqqIeclEiXK78zE1OcqAG3VW0MxOB8q5wawzym6Uh83p1B6uxhWNoqh31W2uMGbyjBgCguXOcTOjF9zKlSB8RsWfKuKFBqlLH5fR4+Ss8NN/xNNv4SWNQ6isLIPeKh9LoohQpv1a5xZ48fszaY27sPDYin5tGgjZeXFaL1We8rNfqV6OsB8UQzWYds8r0IGUAI/JCukoYsgpGFI28nGOM9eXCRuqqVjASc+8T3Y78usWm8U0FTKYGHr4JxAB9Qa33AxhwqF5E+nBi2SzTQASt7oBZyzhE4/Ik/t1bi0v/kyA9Y932lQ8lm2E2EY/XCEIKJwSL9PX8uw==",
+        "rs": {
+          "statuscode": "200",
+          "response": "Success",
+          "resdata": {
+            "pageSize": null,
+            "responseCode": null,
+            "result": {
+              "cumulativePositionList": [
+                {
+                  "cumulativePositionDetails": {
+                    "symbol": "ADANIGREEN",
+                    "ltp": "1962.95",
+                    "avgLtp": "1948.86",
+                    "changeLtp": "12.15",
+                    "previousLtp": "1950.80",
+                    "ltpChangePercentage": "0.62",
+                    "lsSymbol": "item_NSE_ADAGREEQNR",
+                    "marketLot": "",
+                    "hslCode": "ADAGREEQNR",
+                    "companyName": "ADANI GREEN ENERGYLIMITED",
+                    "expiryDate": null,
+                    "optionType": null,
+                    "product": 1,
+                    "strikePrice": null,
+                    "exchangeIdentity": {
+                      "exchangeId": "ALL",
+                      "exchangeIdType": 2
+                    },
+                    "instrumentIdentity": {
+                      "instrumentId": "ADAGREEQNR",
+                      "instrumentIdType": 42,
+                      "instrumentSegment": 1,
+                      "instrumentType": 1
+                    }
                   },
-                  "expiryDate": null,
-                  "instrumentIdentity": {
-                    "instrumentId": "JIOFIN",
-                    "instrumentIdType": 42,
-                    "instrumentSegment": 99,
-                    "instrumentType": 1
+                  "cumulativePositionLegDetails": {
+                    "averageBuyPrice": 1680.6,
+                    "averageBuySettlementPrice": 1680.6,
+                    "averageSellPrice": 0.0,
+                    "averageSellSettlementPrice": 0.0,
+                    "bookPLSettlementPrice": 0.0,
+                    "bookedPL": 0.0,
+                    "cfAverageBuyPrice": 0.0,
+                    "cfAverageSellPrice": 0.0,
+                    "cfBuyQty": 0,
+                    "cfBuySettlementPrice": 0.0,
+                    "cfBuySettlementValue": 0.0,
+                    "cfBuyValue": 0.0,
+                    "cfSellQty": 0,
+                    "cfSellSettlementPrice": 0.0,
+                    "cfSellSettlementValue": 0.0,
+                    "cfSellValue": 0.0,
+                    "dayBookedPL": 0.0,
+                    "dayOverallPL": null,
+                    "dayProfitLoss": -1680.6,
+                    "dayUnrealisedPL": null,
+                    "netQty": 1,
+                    "overallProfitLoss": -1680.6,
+                    "tDayAverageBuyPrice": 1680.6,
+                    "tDayAvgSellPrice": 0.0,
+                    "tDayBuyQuantity": 1,
+                    "tDayBuyValue": 1680.6,
+                    "tDayNetQty": 1,
+                    "tDaySellQty": 0,
+                    "tDaySellValue": 0.0,
+                    "totalBuyQuantity": 1,
+                    "totalBuySettlementValue": 1680.6,
+                    "totalBuyValue": 1680.6,
+                    "totalSellQty": 0,
+                    "totalSellSettlementValue": 0.0,
+                    "totalSellValue": 0.0,
+                    "unrealizedGainLoss": null,
+                    "unrealizedPLActualBuyPrice": null
                   },
-                  "optionType": null,
-                  "product": 6,
-                  "strikePrice": 0,
-                  "tokenId": null
-                },
-                "OpenPositionLegDetails": {
-                  "averageTradedPrice": 228.8,
-                  "avgTransPrice": 0,
-                  "buyOrderQuantity": 0,
-                  "cfQty": 0,
-                  "convetToDeliveryQuantity": 0,
-                  "costPriceAtp": 0,
-                  "currentNetExp": 228.8,
-                  "date": "25 FEB 2025",
-                  "lotQuantityIndicator": 2,
-                  "ltp": 227.29,
-                  "marginPct": 35,
-                  "markToMarket": -0.66,
-                  "mtom": 0,
-                  "multiplier": null,
-                  "netQuantity": 1,
-                  "realizedGainLoss": 0,
-                  "securityName": "JIO FINANCIAL SERVICES LIMITED",
-                  "sellOrderQuantity": 0,
-                  "settlementPrize": 0,
-                  "squareOffDate": "-",
-                  "totalBuytradedQuantity": 1,
-                  "totalSelltradedQuantity": 0,
-                  "tradeValue": 228.8,
-                  "unrealizedGainLoss": null,
-                  "unrealizedGainLossPercentage": null
-                },
-                "tradingAccountDetails": {
-                  "accountSettlementType": 0,
-                  "tradingAccountNumber": "6193993"
-                }
-              },
-              {
-                "OpenPositionDetails": {
-                  "symbol": "TATASTEEL",
-                  "ltp": "137.12",
-                  "altp": "137.80",
-                  "changeltp": "-0.53",
-                  "previousltp": "137.65",
-                  "ltpchangepercetage": "-0.39",
-                  "lsSymbol": "item_NSE_TATSTEEQNR",
-                  "marketLot": null,
-                  "investedamount": "48.002497863769534",
-                  "borrowedAmount": "89.14749603271484",
-                  "exchangeIdentity": {
-                    "exchangeId": "ALL",
-                    "exchangeIdType": 2
-                  },
-                  "expiryDate": null,
-                  "instrumentIdentity": {
-                    "instrumentId": "TATSTEEQNR",
-                    "instrumentIdType": 42,
-                    "instrumentSegment": 99,
-                    "instrumentType": 1
-                  },
-                  "optionType": null,
-                  "product": 6,
-                  "strikePrice": 0,
-                  "tokenId": null
-                },
-                "OpenPositionLegDetails": {
-                  "averageTradedPrice": 137.15,
-                  "avgTransPrice": 0,
-                  "buyOrderQuantity": 0,
-                  "cfQty": 0,
-                  "convetToDeliveryQuantity": 0,
-                  "costPriceAtp": 0,
-                  "currentNetExp": 137.15,
-                  "date": "25 FEB 2025",
-                  "lotQuantityIndicator": 2,
-                  "ltp": 137.08,
-                  "marginPct": 35,
-                  "markToMarket": -0.05,
-                  "mtom": 0,
-                  "multiplier": null,
-                  "netQuantity": 1,
-                  "realizedGainLoss": 0,
-                  "securityName": "TATA STEEL LTD",
-                  "sellOrderQuantity": 0,
-                  "settlementPrize": 0,
-                  "squareOffDate": "-",
-                  "totalBuytradedQuantity": 1,
-                  "totalSelltradedQuantity": 0,
-                  "tradeValue": 137.15,
-                  "unrealizedGainLoss": null,
-                  "unrealizedGainLossPercentage": null
-                },
-                "tradingAccountDetails": {
-                  "accountSettlementType": 0,
-                  "tradingAccountNumber": "6193993"
-                }
-              }
-            ],
-            "totalUnRealisedPer": null
+                  "tradingAccountDetails": {
+                    "accountSettlementType": 0,
+                    "tradingAccountNumber": "425365"
+                  }
+                } ]
+            },
+            "messageList": null,
+            "timeoutSegments": null,
+            "noDataFoundSegments": [3]
           }
         }
       }
     }
-  },
-  "positions": {
-    "mb": {
-      "operationid": "book-services-positions-list\"",
-      "reqtoken": "H+REfFTAUgDGqqIeclEiXK78zE1OcqAG3VW0MxOB8q5wawzym6Uh83p1B6uxhWNoqh31W2uMGbyjBgCguXOcTOjF9zKlSB8RsWfKuKFBqlLH5fR4+Ss8NN/xNNv4SWNQ6isLIPeKh9LoohQpv1a5xZ48fszaY27sPDYin5tGgjZeXFaL1We8rNfqV6OsB8UQzWYds8r0IGUAI/JCukoYsgpGFI28nGOM9eXCRuqqVjASc+8T3Y78usWm8U0FTKYGHr4JxAB9Qa33AxhwqF5E+nBi2SzTQASt7oBZyzhE4/Ik/t1bi0v/kyA9Y932lQ8lm2E2EY/XCEIKJwSL9PX8uw==",
-      "rs": {
-        "statuscode": "200",
-        "response": "Success",
-        "resdata": {
-          "pageSize": null,
-          "responseCode": null,
-          "result": {
-            "cumulativePositionList": [
-              {
-                "cumulativePositionDetails": {
-                  "symbol": "ADANIGREEN",
-                  "ltp": "1962.95",
-                  "avgLtp": "1948.86",
-                  "changeLtp": "12.15",
-                  "previousLtp": "1950.80",
-                  "ltpChangePercentage": "0.62",
-                  "lsSymbol": "item_NSE_ADAGREEQNR",
-                  "marketLot": "",
-                  "hslCode": "ADAGREEQNR",
-                  "companyName": "ADANI GREEN ENERGYLIMITED",
-                  "expiryDate": null,
-                  "optionType": null,
-                  "product": 1,
-                  "strikePrice": null,
-                  "exchangeIdentity": {
-                    "exchangeId": "ALL",
-                    "exchangeIdType": 2
-                  },
-                  "instrumentIdentity": {
-                    "instrumentId": "ADAGREEQNR",
-                    "instrumentIdType": 42,
-                    "instrumentSegment": 1,
-                    "instrumentType": 1
-                  }
-                },
-                "cumulativePositionLegDetails": {
-                  "averageBuyPrice": 1680.6,
-                  "averageBuySettlementPrice": 1680.6,
-                  "averageSellPrice": 0.0,
-                  "averageSellSettlementPrice": 0.0,
-                  "bookPLSettlementPrice": 0.0,
-                  "bookedPL": 0.0,
-                  "cfAverageBuyPrice": 0.0,
-                  "cfAverageSellPrice": 0.0,
-                  "cfBuyQty": 0,
-                  "cfBuySettlementPrice": 0.0,
-                  "cfBuySettlementValue": 0.0,
-                  "cfBuyValue": 0.0,
-                  "cfSellQty": 0,
-                  "cfSellSettlementPrice": 0.0,
-                  "cfSellSettlementValue": 0.0,
-                  "cfSellValue": 0.0,
-                  "dayBookedPL": 0.0,
-                  "dayOverallPL": null,
-                  "dayProfitLoss": -1680.6,
-                  "dayUnrealisedPL": null,
-                  "netQty": 1,
-                  "overallProfitLoss": -1680.6,
-                  "tDayAverageBuyPrice": 1680.6,
-                  "tDayAvgSellPrice": 0.0,
-                  "tDayBuyQuantity": 1,
-                  "tDayBuyValue": 1680.6,
-                  "tDayNetQty": 1,
-                  "tDaySellQty": 0,
-                  "tDaySellValue": 0.0,
-                  "totalBuyQuantity": 1,
-                  "totalBuySettlementValue": 1680.6,
-                  "totalBuyValue": 1680.6,
-                  "totalSellQty": 0,
-                  "totalSellSettlementValue": 0.0,
-                  "totalSellValue": 0.0,
-                  "unrealizedGainLoss": null,
-                  "unrealizedPLActualBuyPrice": null
-                },
-                "tradingAccountDetails": {
-                  "accountSettlementType": 0,
-                  "tradingAccountNumber": "425365"
-                }
-              } ]
-          },
-          "messageList": null,
-          "timeoutSegments": null,
-          "noDataFoundSegments": [3]
-        }
-      }
-    }
   }
-}
+  
