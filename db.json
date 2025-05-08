@@ -1,140 +1,91 @@
 {
-      "asset-summary": {
+      "comulative_positions_all": {
     "mb": {
-      "operationid": "book-services-portfolio-list\"",
-      "reqtoken": "H+REfFTAUgDGqqIeclEiXK78zE1OcqAG3VW0MxOB8q5wawzym6Uh83p1B6uxhWNoqh31W2uMGbyjBgCguXOcTOjF9zKlSB8RsWfKuKFBqlLH5fR4+Ss8NN/xNNv4SWNQ6isLIPeKh9LoohQpv1a5xZ48fszaY27sPDYin5tGgjZeXFaL1We8rNfqV6OsB8UQzWYds8r0IGUAI/JCukoYsgpGFI28nGOM9eXCRuqqVjASc+8T3Y78usWm8U0FTKYGHr4JxAB9Qa33AxhwqF5E+nBi2SzTQASt7oBZyzhE4/Ik/t1bi0v/kyA9Y932lQ8lm2E2EY/XCEIKJwSL9PX8uw==",
+      "operationid": "book-services-positions-list\"",
+      "reqtoken": "H",
       "rs": {
-        "statuscode": "000",
+        "statuscode": "200",
         "response": "Success",
         "resdata": {
-          "responseCode": 0,
-          "messageList": null,
+          "pageSize": null,
+          "responseCode": null,
           "result": {
-            "currToken": [],
-            "drvToken": [],
-            "eqToken": [
-              "NSEENL14977",
-              "NSEENL2885",
-              "NSEENL20092",
-              "NSEENL11957",
-              "NSEENL1333",
-              "NSEENL11184",
-              "NSEENL11483",
-              "NSEENL11351",
-              "NSEnull"
-            ],
-            "equitySectorList": [
-              "GAS DISTRIBUTION",
-              "Others",
-              "FINANCE",
-              "BANKS",
-              "INFRASTRUCTURE DEVELOPERS & OPERATORS",
-              "FMCG",
-              "REFINERIES",
-              "POWER GENERATION & DISTRIBUTION"
-            ],
-            "tradingAssetDetailsList": [
+            "cumulativePositionList": [
               {
-                "lsSymbol": "item_NSE_HDFBANEQNR",
-                "ltp": "1634.80",
-                "changeltp": "-2.30",
-                "previousltp": "1637.10",
-                "marketLot": "",
-                "symbol": "HDFCBANK",
-                "ltpChangePercentage": "-0.14",
-                "averageltp": "1639.72",
-                "ExchangeIdentityResearchCall": {
-                  "exchangeIdResearchCall": "",
-                  "exchangeIdTypeResearchCall": 2
+                "cumulativePositionDetails": {
+                  "symbol": "GROWWEV",
+                  "ltp": "27.07",
+                  "avgLtp": "27.20",
+                  "changeLtp": "-0.02",
+                  "previousLtp": "27.09",
+                  "ltpChangePercentage": "-0.07",
+                  "lsSymbol": "item_NSE_GROWEV",
+                  "marketLot": "",
+                  "hslCode": "GROWEV",
+                  "companyName": "Groww Nifty EV & New Age Automotive ETF",
+                  "expiryDate": null,
+                  "optionType": null,
+                  "product": 8,
+                  "strikePrice": null,
+                  "exchangeIdentity": {
+                    "exchangeId": "ALL",
+                    "exchangeIdType": 2
+                  },
+                  "instrumentIdentity": {
+                    "instrumentId": "GROWEV",
+                    "instrumentIdType": 42,
+                    "instrumentSegment": 1,
+                    "instrumentType": 1
+                  }
                 },
-                "atp": 286.925,
-                "closingPrice": 0.0,
-                "companyName": "HDFC BANK LTD",
-                "coporateActionMessage": "",
-                "corporateActionIndicator": "N",
-                "costWithCharges": 5738.5,
-                "emarginIndicator": "N",
-                "exchangeIdentity": {
-                  "exchangeId": null,
-                  "exchangeIdType": 0
+                "cumulativePositionLegDetails": {
+                  "averageBuyPrice": 27.32,
+                  "averageBuySettlementPrice": 27.32,
+                  "averageSellPrice": 0.0,
+                  "averageSellSettlementPrice": 0.0,
+                  "bookPLSettlementPrice": 0.0,
+                  "bookedPL": 0.0,
+                  "cfAverageBuyPrice": 0.0,
+                  "cfAverageSellPrice": 0.0,
+                  "cfBuyQty": 0,
+                  "cfBuySettlementPrice": 0.0,
+                  "cfBuySettlementValue": 0.0,
+                  "cfBuyValue": 0.0,
+                  "cfSellQty": 0,
+                  "cfSellSettlementPrice": 0.0,
+                  "cfSellSettlementValue": 0.0,
+                  "cfSellValue": 0.0,
+                  "dayBookedPL": 0.0,
+                  "dayOverallPL": null,
+                  "dayProfitLoss": -27.32,
+                  "dayUnrealisedPL": null,
+                  "netQty": 1,
+                  "overallProfitLoss": -27.32,
+                  "tDayAverageBuyPrice": 27.32,
+                  "tDayAvgSellPrice": 0.0,
+                  "tDayBuyQuantity": 1,
+                  "tDayBuyValue": 27.32,
+                  "tDayNetQty": 1,
+                  "tDaySellQty": 0,
+                  "tDaySellValue": 0.0,
+                  "totalBuyQuantity": 1,
+                  "totalBuySettlementValue": 27.32,
+                  "totalBuyValue": 27.32,
+                  "totalSellQty": 0,
+                  "totalSellSettlementValue": 0.0,
+                  "totalSellValue": 0.0,
+                  "unrealizedGainLoss": null,
+                  "unrealizedPLActualBuyPrice": null
                 },
-                "expiryDate": null,
-                "instrumentIdentity": {
-                  "assetClass": 1,
-                  "instrumentId": "HDFBANEQ",
-                  "instrumentIdType": 42,
-                  "instrumentType": 1,
-                  "token": "NSEENL1333"
-                },
-                "investmentValue": 5738.5,
-                "isin": "INE040A01034",
-                "latestValuationBackOffice": 0.0,
-                "ltcgNearingQuantity": 0.0,
-                "ltcgQuantity": 20.0,
-                "mfAmcId": "NA",
-                "optionType": 0,
-                "pdfFlag": null,
-                "pdfUrl": null,
-                "quantity": 20.0,
-                "realizedProfitLoss": 5756.04,
-                "recommendation": 0,
-                "sectorName": "BANKS",
-                "shortSellIndicator": "Y",
-                "sipIndicator": "Y",
-                "strikePrice": null,
-                "underlyingSymbol": null
-              },
-              {
-                "lsSymbol": "item_NSE_IDFCFIREQNR",
-                "ltp": "73.90",
-                "changeltp": "-0.19",
-                "previousltp": "74.09",
-                "marketLot": "",
-                "symbol": "IDFCFIRSTB",
-                "ltpChangePercentage": "-0.26",
-                "averageltp": "73.92",
-                "ExchangeIdentityResearchCall": {
-                  "exchangeIdResearchCall": "",
-                  "exchangeIdTypeResearchCall": 2
-                },
-                "atp": 0.0,
-                "closingPrice": 0.0,
-                "companyName": "IDFC FIRST BANK LIMITED",
-                "coporateActionMessage": "",
-                "corporateActionIndicator": "N",
-                "costWithCharges": 0.0,
-                "emarginIndicator": "N",
-                "exchangeIdentity": {
-                  "exchangeId": null,
-                  "exchangeIdType": 0
-                },
-                "expiryDate": null,
-                "instrumentIdentity": {
-                  "assetClass": 1,
-                  "instrumentId": "IDFCBANKEQ",
-                  "instrumentIdType": 42,
-                  "instrumentType": 1,
-                  "token": "NSEENL11184"
-                },
-                "investmentValue": 0.0,
-                "isin": "INE092T01019",
-                "latestValuationBackOffice": 0.0,
-                "ltcgNearingQuantity": 0.0,
-                "ltcgQuantity": 100.0,
-                "mfAmcId": "NA",
-                "optionType": 0,
-                "pdfFlag": null,
-                "pdfUrl": null,
-                "quantity": 100.0,
-                "realizedProfitLoss": 175.0,
-                "recommendation": 0,
-                "sectorName": "BANKS",
-                "shortSellIndicator": "N",
-                "sipIndicator": "N",
-                "strikePrice": null,
-                "underlyingSymbol": null
-              }]
-          }
+                "tradingAccountDetails": {
+                  "accountSettlementType": 0,
+                  "tradingAccountNumber": "2912574"
+                }
+              }  ]
+          },
+          "messageList": null,
+          "timeoutSegments": null,
+          "noDataFoundSegments": [3]
         }
       }
     }
