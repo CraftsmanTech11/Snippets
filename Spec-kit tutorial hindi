@@ -1,0 +1,30 @@
+**Title: GitHub Spec Kit Tutorial in Hindi (Overview & Setup)**
+
+**[0:00 - 0:20] Intro & The Problem**
+**Host (On-camera):** 
+Hello developers! Kya aapne kabhi notice kiya hai ki jab hum AI agents se directly code likhwate hain, toh bina clear requirements ke code aksar disjointed aur maintain karne mein mushkil ho jata hai? Is process ko aajkal "vibe coding" kaha ja raha hai [1, 2]. Is problem ko solve karne ke liye GitHub ne ek naya tool launch kiya hai—**GitHub Spec Kit** [2]. Aaj hum isi ke baare mein baat karenge ki yeh kya hai, kyun zaroori hai, aur isko apne project mein kaise setup karein.
+
+**[0:20 - 1:05] What is it? & Why is it useful?**
+**Host (On-camera / B-roll showing code and docs):**
+GitHub Spec Kit ek toolkit hai jo **Spec-Driven Development (SDD)** approach ko AI-based software development mein laata hai [2, 3]. Iska matlab hai ki code implement karne se pehle, aap project ki functional requirements, motivations, aur technical aspects ko clearly outline karte hain [2]. 
+
+**Host (On-camera):**
+Ab sawaal aata hai ki yeh useful kyun hai? Code ek "binding artifact" hota hai; ek baar implement ho gaya, toh usko badalna ya decouple karna bohot time-consuming hota hai [2]. AI agents ko ek solid **shared context** chahiye hota hai taaki wo sahi solution build kar sakein [4, 5]. Spec-driven development ke saath, aap explicitly batate hain ki aap kya bana rahe hain aur kyun [6]. Isse aapke AI agents exactly wahi code likhte hain jo aapko chahiye, aur aapka kaafi time bachta hai [2]. 
+
+**[1:05 - 1:45] How to Set it up?**
+**Host (Screen recording of Terminal & VS Code):**
+Toh chaliye dekhte hain isko setup kaise karte hain. GitHub Spec Kit mein do main components hote hain: ek CLI aur kuch templates [3]. 
+
+Isko setup karne ke liye hum inka Python-based tool, **Specify CLI** use karenge [7]. Apne terminal mein simply yeh command run karein:
+*(Text on screen)*
+`uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>` [8].
+
+Jab aap yeh run karenge, toh CLI aapse aapka preferred AI coding agent poochega aur background mein sab kuch set kar dega [8].
+
+Initialization ke baad, aapke project mein do naye folders create honge: `.specify` aur `.github` [9].
+*   **.specify folder:** Isme aapko SDD ke foundational templates (jaise specs, plan, aur tasks ke liye) aur helper scripts milenge [10].
+*   **.github folder:** Isme agent-specific prompt files aur ek bohot important `constitution.md` file aayegi [10]. Is constitution file mein aap apne project ke non-negotiable principles, jaise coding conventions ya testing requirements define kar sakte hain jinko AI hamesha follow karega [10].
+
+**[1:45 - 2:00] Outro**
+**Host (On-camera):**
+Setup complete hone ke baad, aap Copilot chat mein `/specify`, `/plan`, aur `/tasks` jaise slash commands use karke apna development shuru kar sakte hain [11]. Agar aap apne AI-assisted workflows ko next level par le jana chahte hain, toh GitHub Spec Kit zaroor try karein! Video pasand aayi toh Like aur Subscribe karein. Happy Coding!
